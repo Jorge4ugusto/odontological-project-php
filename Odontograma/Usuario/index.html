@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Inicio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+			<div id="wrapper">
+					<header id="header">
+						<div class="content">
+							<div class="inner">
+								<h1>Bienvenido</h1>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Lista de Pacientes</a></li>
+								<li><a href="#work">Lista de Tratamientos</a></li>
+								<li><a href="#about">Odontograma</a></li>
+								<li><a href="#contact">Registrar Nuevo Paciente</a></li>
+							</ul>
+						</nav>
+					</header>
+					<div id="main">
+							<article id="intro">
+								<h2 class="major">Pacientes</h2>
+								<span class="image main"><img src="../Fotolia_38040776_S.jpg" alt="" /></span>
+								</article>
+							<article id="work">
+								<h2 class="major">Tratamientos</h2>
+								<span class="image main"><img src="../Tratamientos-dentales-Valencia-1024x730.jpg" alt="" /></span>
+								<p></p>
+								<p></p>
+							</article>
+							<article id="about">
+								<h2 class="major">Odontograma</h2>
+								<span class="image main"><img src="../odontograma1.png" alt="" /></span>
+								<p></p>
+							</article>
+							<article id="contact">
+								<h2 class="major">Registrar Paciente</h2>
+								<form method="post" action="registrar.php">
+									<div class="field half first">
+										<label for="name">Nombres</label>
+										<input type="text" name="name" id="name" />
+										<label for="apes">Apellidos</label>
+										<input type="text" name="apes" id="apes" />
+									</div>
+									<div class="field half">
+										<label for="edad">Edad</label>
+										<input type="number" name="edad" id="edad" />
+										<label for="genero">Genero</label>
+										Masculino: <input type="radio" name="genero" id="genero" value="Masculino" />
+										Femenino: <input type="radio" name="genero" id="genero" value="Femenino" />
+									</div>
+									<ul class="actions">
+										<li><input type="reset" value="Reset" /></li>
+										<li><input type="submit"></li>
+									</ul>
+								</form>
+							</article>
+					</div>
+					<footer id="footer">
+						<p class="copyright">&copy; Odontologica "De los Aires". Diseño:JAR.</p>
+					</footer>
+			</div>
+			<div id="bg"></div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
