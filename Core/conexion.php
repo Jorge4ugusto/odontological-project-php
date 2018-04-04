@@ -1,8 +1,8 @@
 <?php
-$mysql_hostname="mysql.hostinger.es";
-$mysql_user="u186755370_jorge";
-$mysql_password="ViKingo1931";
-$mysql_database="u186755370_odont";
+$mysql_hostname="localhost";
+$mysql_user="root";
+$mysql_password="admin";
+$mysql_database="ondontologica";
 $bd=mysql_connect($mysql_hostname,$mysql_user,$mysql_password)
 or die
 ("No se puede conectar a la Base de datos error en los parametros de contraseña y nombre");
